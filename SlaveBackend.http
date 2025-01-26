@@ -1,0 +1,6 @@
+@SlaveBackend_HostAddress = http://localhost:5150
+
+GET {{SlaveBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
